@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1836E30718DD9B53008E6913 /* Heart7.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836E30618DD9B53008E6913 /* Heart7.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1836E30A18DD9B5E008E6913 /* Heart8.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836E30918DD9B5E008E6913 /* Heart8.m */; };
+		1836E30D18DDA437008E6913 /* Heart9.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836E30C18DDA437008E6913 /* Heart9.m */; };
+		1840B50318DD7AEF00DAFA9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840B50218DD7AEF00DAFA9D /* Foundation.framework */; };
+		1840B50518DD7AEF00DAFA9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840B50418DD7AEF00DAFA9D /* CoreGraphics.framework */; };
+		1840B50718DD7AEF00DAFA9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840B50618DD7AEF00DAFA9D /* UIKit.framework */; };
+		1840B50D18DD7AEF00DAFA9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1840B50B18DD7AEF00DAFA9D /* InfoPlist.strings */; };
+		1840B50F18DD7AEF00DAFA9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840B50E18DD7AEF00DAFA9D /* main.m */; };
+		1840B51318DD7AEF00DAFA9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840B51218DD7AEF00DAFA9D /* AppDelegate.m */; };
+		1840B51618DD7AEF00DAFA9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1840B51418DD7AEF00DAFA9D /* Main.storyboard */; };
+		1840B51918DD7AEF00DAFA9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840B51818DD7AEF00DAFA9D /* ViewController.m */; };
+		1840B51B18DD7AEF00DAFA9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1840B51A18DD7AEF00DAFA9D /* Images.xcassets */; };
+		1840B52218DD7AEF00DAFA9D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840B52118DD7AEF00DAFA9D /* XCTest.framework */; };
+		1840B52318DD7AEF00DAFA9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840B50218DD7AEF00DAFA9D /* Foundation.framework */; };
+		1840B52418DD7AEF00DAFA9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840B50618DD7AEF00DAFA9D /* UIKit.framework */; };
+		1840B52C18DD7AEF00DAFA9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1840B52A18DD7AEF00DAFA9D /* InfoPlist.strings */; };
+		1840B52E18DD7AEF00DAFA9D /* MyHeartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840B52D18DD7AEF00DAFA9D /* MyHeartsTests.m */; };
+		1840B53918DD7B1700DAFA9D /* Heart1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840B53818DD7B1700DAFA9D /* Heart1.m */; };
+		1840B53C18DD874100DAFA9D /* Heart2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840B53B18DD874100DAFA9D /* Heart2.m */; };
+		1840B53F18DD8D8600DAFA9D /* Heart3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840B53E18DD8D8600DAFA9D /* Heart3.m */; };
+		1840B54218DD8D9100DAFA9D /* Heart4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840B54118DD8D9100DAFA9D /* Heart4.m */; };
+		1840B54518DD903300DAFA9D /* Heart5.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840B54418DD903300DAFA9D /* Heart5.m */; };
+		1840B54818DD919F00DAFA9D /* Heart6.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840B54718DD919F00DAFA9D /* Heart6.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1840B52518DD7AEF00DAFA9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1840B4F718DD7AEF00DAFA9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1840B4FE18DD7AEF00DAFA9D;
+			remoteInfo = MyHearts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1836E30518DD9B53008E6913 /* Heart7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heart7.h; sourceTree = "<group>"; };
+		1836E30618DD9B53008E6913 /* Heart7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heart7.m; sourceTree = "<group>"; };
+		1836E30818DD9B5E008E6913 /* Heart8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heart8.h; sourceTree = "<group>"; };
+		1836E30918DD9B5E008E6913 /* Heart8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heart8.m; sourceTree = "<group>"; };
+		1836E30B18DDA437008E6913 /* Heart9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heart9.h; sourceTree = "<group>"; };
+		1836E30C18DDA437008E6913 /* Heart9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heart9.m; sourceTree = "<group>"; };
+		1840B4FF18DD7AEF00DAFA9D /* MyHearts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHearts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1840B50218DD7AEF00DAFA9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1840B50418DD7AEF00DAFA9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1840B50618DD7AEF00DAFA9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1840B50A18DD7AEF00DAFA9D /* MyHearts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyHearts-Info.plist"; sourceTree = "<group>"; };
+		1840B50C18DD7AEF00DAFA9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1840B50E18DD7AEF00DAFA9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1840B51018DD7AEF00DAFA9D /* MyHearts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyHearts-Prefix.pch"; sourceTree = "<group>"; };
+		1840B51118DD7AEF00DAFA9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1840B51218DD7AEF00DAFA9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1840B51518DD7AEF00DAFA9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1840B51718DD7AEF00DAFA9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1840B51818DD7AEF00DAFA9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1840B51A18DD7AEF00DAFA9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1840B52018DD7AEF00DAFA9D /* MyHeartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHeartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1840B52118DD7AEF00DAFA9D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1840B52918DD7AEF00DAFA9D /* MyHeartsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyHeartsTests-Info.plist"; sourceTree = "<group>"; };
+		1840B52B18DD7AEF00DAFA9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1840B52D18DD7AEF00DAFA9D /* MyHeartsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHeartsTests.m; sourceTree = "<group>"; };
+		1840B53718DD7B1700DAFA9D /* Heart1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heart1.h; sourceTree = "<group>"; };
+		1840B53818DD7B1700DAFA9D /* Heart1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heart1.m; sourceTree = "<group>"; };
+		1840B53A18DD874100DAFA9D /* Heart2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heart2.h; sourceTree = "<group>"; };
+		1840B53B18DD874100DAFA9D /* Heart2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heart2.m; sourceTree = "<group>"; };
+		1840B53D18DD8D8600DAFA9D /* Heart3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heart3.h; sourceTree = "<group>"; };
+		1840B53E18DD8D8600DAFA9D /* Heart3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heart3.m; sourceTree = "<group>"; };
+		1840B54018DD8D9100DAFA9D /* Heart4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heart4.h; sourceTree = "<group>"; };
+		1840B54118DD8D9100DAFA9D /* Heart4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heart4.m; sourceTree = "<group>"; };
+		1840B54318DD903300DAFA9D /* Heart5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heart5.h; sourceTree = "<group>"; };
+		1840B54418DD903300DAFA9D /* Heart5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heart5.m; sourceTree = "<group>"; };
+		1840B54618DD919F00DAFA9D /* Heart6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heart6.h; sourceTree = "<group>"; };
+		1840B54718DD919F00DAFA9D /* Heart6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heart6.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1840B4FC18DD7AEF00DAFA9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1840B50518DD7AEF00DAFA9D /* CoreGraphics.framework in Frameworks */,
+				1840B50718DD7AEF00DAFA9D /* UIKit.framework in Frameworks */,
+				1840B50318DD7AEF00DAFA9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1840B51D18DD7AEF00DAFA9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1840B52218DD7AEF00DAFA9D /* XCTest.framework in Frameworks */,
+				1840B52418DD7AEF00DAFA9D /* UIKit.framework in Frameworks */,
+				1840B52318DD7AEF00DAFA9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1840B4F618DD7AEF00DAFA9D = {
+			isa = PBXGroup;
+			children = (
+				1840B50818DD7AEF00DAFA9D /* MyHearts */,
+				1840B52718DD7AEF00DAFA9D /* MyHeartsTests */,
+				1840B50118DD7AEF00DAFA9D /* Frameworks */,
+				1840B50018DD7AEF00DAFA9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1840B50018DD7AEF00DAFA9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1840B4FF18DD7AEF00DAFA9D /* MyHearts.app */,
+				1840B52018DD7AEF00DAFA9D /* MyHeartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1840B50118DD7AEF00DAFA9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1840B50218DD7AEF00DAFA9D /* Foundation.framework */,
+				1840B50418DD7AEF00DAFA9D /* CoreGraphics.framework */,
+				1840B50618DD7AEF00DAFA9D /* UIKit.framework */,
+				1840B52118DD7AEF00DAFA9D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1840B50818DD7AEF00DAFA9D /* MyHearts */ = {
+			isa = PBXGroup;
+			children = (
+				1840B51118DD7AEF00DAFA9D /* AppDelegate.h */,
+				1840B51218DD7AEF00DAFA9D /* AppDelegate.m */,
+				1840B53718DD7B1700DAFA9D /* Heart1.h */,
+				1840B53818DD7B1700DAFA9D /* Heart1.m */,
+				1840B53A18DD874100DAFA9D /* Heart2.h */,
+				1840B53B18DD874100DAFA9D /* Heart2.m */,
+				1840B53D18DD8D8600DAFA9D /* Heart3.h */,
+				1840B53E18DD8D8600DAFA9D /* Heart3.m */,
+				1840B54018DD8D9100DAFA9D /* Heart4.h */,
+				1840B54118DD8D9100DAFA9D /* Heart4.m */,
+				1840B54318DD903300DAFA9D /* Heart5.h */,
+				1840B54418DD903300DAFA9D /* Heart5.m */,
+				1840B54618DD919F00DAFA9D /* Heart6.h */,
+				1840B54718DD919F00DAFA9D /* Heart6.m */,
+				1836E30518DD9B53008E6913 /* Heart7.h */,
+				1836E30618DD9B53008E6913 /* Heart7.m */,
+				1836E30818DD9B5E008E6913 /* Heart8.h */,
+				1836E30918DD9B5E008E6913 /* Heart8.m */,
+				1836E30B18DDA437008E6913 /* Heart9.h */,
+				1836E30C18DDA437008E6913 /* Heart9.m */,
+				1840B51418DD7AEF00DAFA9D /* Main.storyboard */,
+				1840B51718DD7AEF00DAFA9D /* ViewController.h */,
+				1840B51818DD7AEF00DAFA9D /* ViewController.m */,
+				1840B51A18DD7AEF00DAFA9D /* Images.xcassets */,
+				1840B50918DD7AEF00DAFA9D /* Supporting Files */,
+			);
+			path = MyHearts;
+			sourceTree = "<group>";
+		};
+		1840B50918DD7AEF00DAFA9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1840B50A18DD7AEF00DAFA9D /* MyHearts-Info.plist */,
+				1840B50B18DD7AEF00DAFA9D /* InfoPlist.strings */,
+				1840B50E18DD7AEF00DAFA9D /* main.m */,
+				1840B51018DD7AEF00DAFA9D /* MyHearts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1840B52718DD7AEF00DAFA9D /* MyHeartsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1840B52D18DD7AEF00DAFA9D /* MyHeartsTests.m */,
+				1840B52818DD7AEF00DAFA9D /* Supporting Files */,
+			);
+			path = MyHeartsTests;
+			sourceTree = "<group>";
+		};
+		1840B52818DD7AEF00DAFA9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1840B52918DD7AEF00DAFA9D /* MyHeartsTests-Info.plist */,
+				1840B52A18DD7AEF00DAFA9D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1840B4FE18DD7AEF00DAFA9D /* MyHearts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1840B53118DD7AEF00DAFA9D /* Build configuration list for PBXNativeTarget "MyHearts" */;
+			buildPhases = (
+				1840B4FB18DD7AEF00DAFA9D /* Sources */,
+				1840B4FC18DD7AEF00DAFA9D /* Frameworks */,
+				1840B4FD18DD7AEF00DAFA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyHearts;
+			productName = MyHearts;
+			productReference = 1840B4FF18DD7AEF00DAFA9D /* MyHearts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1840B51F18DD7AEF00DAFA9D /* MyHeartsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1840B53418DD7AEF00DAFA9D /* Build configuration list for PBXNativeTarget "MyHeartsTests" */;
+			buildPhases = (
+				1840B51C18DD7AEF00DAFA9D /* Sources */,
+				1840B51D18DD7AEF00DAFA9D /* Frameworks */,
+				1840B51E18DD7AEF00DAFA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1840B52618DD7AEF00DAFA9D /* PBXTargetDependency */,
+			);
+			name = MyHeartsTests;
+			productName = MyHeartsTests;
+			productReference = 1840B52018DD7AEF00DAFA9D /* MyHeartsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1840B4F718DD7AEF00DAFA9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Toyship.org;
+				TargetAttributes = {
+					1840B51F18DD7AEF00DAFA9D = {
+						TestTargetID = 1840B4FE18DD7AEF00DAFA9D;
+					};
+				};
+			};
+			buildConfigurationList = 1840B4FA18DD7AEF00DAFA9D /* Build configuration list for PBXProject "MyHearts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1840B4F618DD7AEF00DAFA9D;
+			productRefGroup = 1840B50018DD7AEF00DAFA9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1840B4FE18DD7AEF00DAFA9D /* MyHearts */,
+				1840B51F18DD7AEF00DAFA9D /* MyHeartsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1840B4FD18DD7AEF00DAFA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1840B51B18DD7AEF00DAFA9D /* Images.xcassets in Resources */,
+				1840B50D18DD7AEF00DAFA9D /* InfoPlist.strings in Resources */,
+				1840B51618DD7AEF00DAFA9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1840B51E18DD7AEF00DAFA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1840B52C18DD7AEF00DAFA9D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1840B4FB18DD7AEF00DAFA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1840B53918DD7B1700DAFA9D /* Heart1.m in Sources */,
+				1840B54818DD919F00DAFA9D /* Heart6.m in Sources */,
+				1836E30718DD9B53008E6913 /* Heart7.m in Sources */,
+				1840B51918DD7AEF00DAFA9D /* ViewController.m in Sources */,
+				1836E30D18DDA437008E6913 /* Heart9.m in Sources */,
+				1840B53C18DD874100DAFA9D /* Heart2.m in Sources */,
+				1840B54218DD8D9100DAFA9D /* Heart4.m in Sources */,
+				1840B54518DD903300DAFA9D /* Heart5.m in Sources */,
+				1836E30A18DD9B5E008E6913 /* Heart8.m in Sources */,
+				1840B51318DD7AEF00DAFA9D /* AppDelegate.m in Sources */,
+				1840B53F18DD8D8600DAFA9D /* Heart3.m in Sources */,
+				1840B50F18DD7AEF00DAFA9D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1840B51C18DD7AEF00DAFA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1840B52E18DD7AEF00DAFA9D /* MyHeartsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1840B52618DD7AEF00DAFA9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1840B4FE18DD7AEF00DAFA9D /* MyHearts */;
+			targetProxy = 1840B52518DD7AEF00DAFA9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1840B50B18DD7AEF00DAFA9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1840B50C18DD7AEF00DAFA9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1840B51418DD7AEF00DAFA9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1840B51518DD7AEF00DAFA9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1840B52A18DD7AEF00DAFA9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1840B52B18DD7AEF00DAFA9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1840B52F18DD7AEF00DAFA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1840B53018DD7AEF00DAFA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1840B53218DD7AEF00DAFA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyHearts/MyHearts-Prefix.pch";
+				INFOPLIST_FILE = "MyHearts/MyHearts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1840B53318DD7AEF00DAFA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyHearts/MyHearts-Prefix.pch";
+				INFOPLIST_FILE = "MyHearts/MyHearts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1840B53518DD7AEF00DAFA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyHearts.app/MyHearts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyHearts/MyHearts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyHeartsTests/MyHeartsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1840B53618DD7AEF00DAFA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyHearts.app/MyHearts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyHearts/MyHearts-Prefix.pch";
+				INFOPLIST_FILE = "MyHeartsTests/MyHeartsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1840B4FA18DD7AEF00DAFA9D /* Build configuration list for PBXProject "MyHearts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1840B52F18DD7AEF00DAFA9D /* Debug */,
+				1840B53018DD7AEF00DAFA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1840B53118DD7AEF00DAFA9D /* Build configuration list for PBXNativeTarget "MyHearts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1840B53218DD7AEF00DAFA9D /* Debug */,
+				1840B53318DD7AEF00DAFA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1840B53418DD7AEF00DAFA9D /* Build configuration list for PBXNativeTarget "MyHeartsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1840B53518DD7AEF00DAFA9D /* Debug */,
+				1840B53618DD7AEF00DAFA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1840B4F718DD7AEF00DAFA9D /* Project object */;
+}
